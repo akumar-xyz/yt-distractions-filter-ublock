@@ -5,3 +5,6 @@ youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-i
 
 ! Shorts from search results
 youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer:has-text("SHORTS"))
+
+! Shorts from home page
+youtube.com###content > .ytd-rich-section-renderer.style-scope
