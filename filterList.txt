@@ -1,7 +1,7 @@
 ! Youtube Distraction filter list
 
 ! Generic container blocks
-*.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
+youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
 
 ! Shorts from search results
-*.youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer:has-text("SHORTS"))
+youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer:has-text("SHORTS"))
