@@ -1,10 +1,14 @@
-! Youtube Distraction filter list
+! Title: akumar's Youtube Distraction filter list
 
 ! Generic container blocks
 youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
+youtube.com##ytm-rich-section-renderer.rich-section-single-column
 
 ! Shorts from search results
-youtube.com##ytd-video-renderer.ytd-item-section-renderer.style-scope:has(ytd-thumbnail-overlay-time-status-renderer:has-text("SHORTS"))
+youtube.com##ytd-video-renderer.ytd-item-section-renderer:has(ytd-thumbnail-overlay-time-status-renderer:has-text("SHORTS"))
+youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORTS"])
+youtube.com##.big-shorts-singleton
 
 ! Shorts from home page
-youtube.com###content > .ytd-rich-section-renderer.style-scope
+youtube.com###content > .ytd-rich-section-renderer
+
