@@ -5,6 +5,9 @@ on:
     tags:
       - "release-v*"
 
+permissions:
+  contents: write
+
 jobs:
   create_release:
     name: Create GitHub Release
